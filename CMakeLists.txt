@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 project(usb_cam)
+set(CMAKE_CXX_STANDARD 14)
 
 message(STATUS "Searching required modules")
 find_package(PkgConfig REQUIRED)
