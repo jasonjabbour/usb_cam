@@ -1,0 +1,20 @@
+image_width: 1920
+image_height: 1080
+camera_name: front_25mm
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [8454.4471655412035, 0.0, 367.1496360836934, 0.0, 8390.096148694976, 538.8551463658559, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.33296812937499887, 24.38980986282855, 0.0007493300208128043, -0.04513547256574346, -326.65280395102354]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: []  # Assuming no projection matrix was provided, so it's left as an empty list
